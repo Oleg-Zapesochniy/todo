@@ -18,7 +18,9 @@ const styles = StyleSheet.create({
     block: {
       flexDirection: 'row',
       justifyContent: 'space-between',
-      allignItems: 'center'
+      allignItems: 'center',
+      marginBottom: 15,
+
     },
     input :{  
       width: '70%',
@@ -26,6 +28,7 @@ const styles = StyleSheet.create({
       borderBottomWidth: 2 , 
       borderStyle: 'solid',
       padding: 10,
+      marginBottom: 10
     },
     button: {
       color: 'red'
